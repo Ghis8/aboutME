@@ -1,3 +1,4 @@
+/*setting margin of the entire body to zero*/
 body{
 	margin: 0;
 }
@@ -18,6 +19,8 @@ article{
 	text-align: center;
 
 }
+
+/*----header----*/
 header{
 	background-color:black;
 	padding: 15px 0 15px 0;
@@ -30,9 +33,11 @@ header h1, header h4{
 	text-align: center;
 
 }
+/*site owner picture! */
 img{
 	margin-top: 20px;
 }
+/*pseudo-classes of links*/
 a{
 	text-decoration: none;
 	cursor: pointer;
@@ -49,6 +54,7 @@ a:hover{
 a:active{
 	color: lightblue;
 }
+/*'bout the map  */
 .mapouter{
 	position:relative;
 	height:500px;
@@ -67,6 +73,7 @@ iframe{
 	border-radius: 5px;
 
 }
+/*Here down come my footer*/
 footer{
 	background-color: black;
 	padding: 10px 0 10px 0;
